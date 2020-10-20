@@ -1,0 +1,14 @@
+<!--pages/lianxi/lianxi.wxml-->
+<text>练习题\n</text>
+<text>请选下列数字中相同的数字</text>
+<view class='testNumber'>
+  <view class='number' bindtap="selectFrm1">{{num1}}</view>
+  <view class='number' bindtap="selectFrm2">{{num2}}</view>
+  <view class='number' bindtap="selectFrm3">{{num3}}</view>
+  <view class='number' bindtap="selectFrm4">{{num4}}</view>
+  <view class='number' bindtap="selectFrm5">{{num5}}</view>
+  <view class='number' bindtap="selectFrm6">{{num6}}</view>
+  <view>{{selectedFrm}}</view>
+  <view>{{selectedFrm_num}}</view>
+</view>
+<button bindtap="exit">中途退出</button>

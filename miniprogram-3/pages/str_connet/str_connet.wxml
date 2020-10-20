@@ -1,0 +1,17 @@
+<!--pages/str_connet/str_connet.wxml-->
+<text>请按照以下顺序点击字母或数字\n</text>
+<text >{{str_order}}</text>
+<view>
+    <view class='str' bindtap="selectFrm1">{{str1}}</view>
+    <view class='str' bindtap="selectFrm2">{{str2}}</view>
+    <view class='str' bindtap="selectFrm3">{{str3}}</view>
+    <view class='str' bindtap="selectFrm4">{{str4}}</view>
+    <view class='str' bindtap="selectFrm5">{{str5}}</view>
+    <view class='str' bindtap="selectFrm6">{{str6}}</view>
+    <view class='str' bindtap="selectFrm7">{{str7}}</view>
+    <view class='str' bindtap="selectFrm8">{{str8}}</view>
+    <view class='str' bindtap="selectFrm9">{{str9}}</view>
+    <view class='str' bindtap="selectFrm10">{{str10}}</view>
+    <view class='str' bindtap="selectFrm11">{{str11}}</view>
+    <view class='str' bindtap="selectFrm12">{{str12}}</view>
+</view>

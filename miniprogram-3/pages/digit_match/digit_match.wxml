@@ -1,0 +1,12 @@
+<!--pages/digit_match/digit_match.wxml-->
+<view>第{{count}}题/20</view>
+<view>
+  <view class='number' bindtap="selectFrm1">{{num1}}</view>
+  <view class='number' bindtap="selectFrm2">{{num2}}</view>
+  <view class='number' bindtap="selectFrm3">{{num3}}</view>
+  <view class='number' bindtap="selectFrm4">{{num4}}</view>
+  <view class='number' bindtap="selectFrm5">{{num5}}</view>
+  <view class='number' bindtap="selectFrm6">{{num6}}</view>
+</view>
+<button bindtap="exit">中途退出</button>
+

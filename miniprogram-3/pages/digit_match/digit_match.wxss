@@ -1,0 +1,8 @@
+/* pages/digit_match/digit_match.wxss */
+.number{
+  border: solid 10px grey;
+  margin:5px 
+}
+.number:hover{
+  color: brown;
+}

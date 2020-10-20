@@ -1,0 +1,14 @@
+<!--pages/instruction/instruction.wxml-->
+<view>
+  <text>测试说明：</text>
+</view>
+<view>
+  <text>本次测试的结果是保密的\n</text>
+  <text>试该项测验是以完成任务的速度和正确数计分\n你可以中途退出\n我们希望你能坚持一下，完成这个测验</text>
+</view>
+<view>
+  <button bindtap='lianxi'>测试练习</button>
+  <button bindtap='beginTest'>开始正式测试</button>
+</view>
+
+

@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view class="container">
+  <view>
+    <text>欢迎使用PASS模型计算机智力测验</text>
+    <button bindtap='instruction'>了解一下</button>
+  </view>
+</view>

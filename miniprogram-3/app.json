@@ -1,0 +1,20 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/digit_match/digit_match",
+    "pages/instruction/instruction",
+    "pages/lianxi/lianxi",
+    "pages/half_dialog/half_dialog",
+    "pages/result/result",
+    "pages/str_connet/str_connet"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

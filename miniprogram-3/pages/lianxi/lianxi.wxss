@@ -1,0 +1,6 @@
+/* pages/lianxi/lianxi.wxss */
+.number{
+  text-align: center;
+  border:10px solid green;
+  margin: 5px;
+}
