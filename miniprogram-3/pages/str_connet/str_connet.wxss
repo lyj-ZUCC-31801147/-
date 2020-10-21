@@ -1,1 +1,39 @@
 /* pages/str_connet/str_connet.wxss */
+/* pages/grid/grid.wxss */
+page {
+  height: 100%;
+}
+
+.chess_map{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.chess_box{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 70rpx;
+  font-weight: 600;
+  position: relative;
+  border-radius: 10rpx;
+  border: 10rpx;
+  border-color: rgba(80, 44, 14, 0.973);
+  /* for Child: the Number */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.chess_num{
+  /* background-color: #f7cc8b; */
+  /* background-image: url(/asset/mood_chess.png); */ /* 用站长工具，在线转为base64 */
+  text-align: center;
+  text-justify: center;
+  width:75rpx;
+  height:75rpx;
+   align-items: center;
+  justify-content: center;
+  left: 0;
+  top: 0; 
+}
+

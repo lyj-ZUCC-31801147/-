@@ -5,6 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
+    
 
   },
   beginTest(){
@@ -17,7 +18,11 @@ Page({
       url: '../lianxi/lianxi'
     })
   },
-
+  str_connet_test(){
+    wx.navigateTo({
+      url: '../str_connet/str_connet'
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

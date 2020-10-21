@@ -9,6 +9,7 @@
 <view>
   <button bindtap='lianxi'>测试练习</button>
   <button bindtap='beginTest'>开始正式测试</button>
+  <button bindtap='str_connet_test'>开始字符串测试</button>
 </view>
 
 
